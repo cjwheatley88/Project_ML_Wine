@@ -172,7 +172,7 @@ train %>% mutate(quality = as.factor(quality)) %>%
 #The box plots of fixed.acidity against quality shows minimal variability and no clear relationship.
 #Fixed acids within the range of 7 and 11 are most common across each of the quality values. 
 
-#Dependent Variable 2 - 'volatile.acidity'
+#Independent Variable 2 - 'volatile.acidity'
 #Volatile acids are often related to aroma as opposed to taste. They are describes as gas like acids within wine.
 #Since our smell is a key contributor to taste, i would think there will be a relationship here.
 
@@ -185,7 +185,7 @@ train %>% mutate(quality = as.factor(quality)) %>%
 
 #Lesser volatile.acidity values infers a higher quality score.. interesting.
 
-#Dependent Variable 3 - 'citric.acid'
+#Independent Variable 3 - 'citric.acid'
 
 #Citric acid is utilized in wine production as a preservative or supplement and is 
 #often related to flavors which are tart or sour.
@@ -199,7 +199,7 @@ train %>% mutate(quality = as.factor(quality)) %>%
 
 #Higher citric.acid values infers an increase in quality score.
 
-#Dependent Variable 4 - 'chlorides'
+#Independent Variable 4 - 'chlorides'
 
 #Chloride is used as a measure of salt in the wine. 
 
@@ -212,7 +212,7 @@ train %>% mutate(quality = as.factor(quality)) %>%
 
 #Increased salt infers a lower quality scored wine.
 
-#Dependent Variable 5 - 'total.sulfur.dioxide'
+#Independent Variable 5 - 'total.sulfur.dioxide'
 
 #Is a preservative added to wines in the bottling process, to reduce the likelihood of spoiling.
 
@@ -234,7 +234,7 @@ train %>%
 #Higher levels of the sulfur dioxide is attributed to consistency / average quality scores.
 #Which may highlight it's effectiveness in controlling volatility and stabilizing quality around the mean.
 
-#Dependent Variable 6 - 'density'
+#Independent Variable 6 - 'density'
 
 #Relates the specific gravity of the wine, or weight / mass. Measured in grams per milliliter (g/mL).
 #Density is used to describe the proportional composition of sugars, alcohol and other dissolved solids. 
@@ -248,7 +248,7 @@ train %>% mutate(quality = as.factor(quality)) %>%
 
 #Less dense samples infer higher quality scores.
 
-#Dependent variable 7 - 'sulphates'
+#Independent variable 7 - 'sulphates'
 
 #Sulphates are another preservative that protect the wine from over oxidization or bacterial spoilage.
 #Derived from sulphur dioxide, levels are controlled here in Australia due to safety regulations.
@@ -264,7 +264,7 @@ train %>% mutate(quality = as.factor(quality)) %>%
 
 #Higher sulphates infer higher quality scores.
 
-#Dependent variable 8 - 'alcohol'
+#Independent variable 8 - 'alcohol'
 
 #Alcohol is a natural by product of the fermentation process.
 
